@@ -1,0 +1,9 @@
+ktor:
+  deployment:
+    port: 8080
+  application:
+    modules:
+      - proj.emirtemindarov.SerializationKt.configureSerialization
+      - proj.emirtemindarov.RpcKt.configureRpc
+      - proj.emirtemindarov.StatusPagesKt.configureStatusPages
+      - proj.emirtemindarov.RoutingKt.configureRouting
