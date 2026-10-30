@@ -8,7 +8,7 @@ plugins {
 
 
 application {
-    mainClass = "io.ktor.server.cio.EngineMain"
+    mainClass = "proj.emirtemindarov.MainKt"
 }
 
 kotlin {
